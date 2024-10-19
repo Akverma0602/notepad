@@ -1,0 +1,860 @@
+Entity: Student 
+===================
+    1. STATE:
+    ---------   
+                 int rno = 100    
+                ================
+variable: Attributes: rno, name, marks, gender, class, section, result, school, location, par_contnum, dob
+value   : Values    : 100, Madhu, 54, Male, 5th, B, True, "DPS", "Bangalore", 324324, 14-Jun-32
+type    : datatypes:  int, str, float, str, str, str, str, bool
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create Student         : While joining school  (School)
+        - Retrieve Student info  : By Student / School
+        - Update                 : Parentscontactnum, Addr, MailID / Marks, Grade, Class, Section 
+        - Delete Student         : While leaving / Termination
+		
+
+Entity2 : Banker	
+		  1. STATE:
+    ---------   
+                 int emp_id = 100    
+                ================
+variable: Attributes: emp_id, name,designation, dept, salary
+value   : Values    : 100, Sudha, Assistant Manager,Privilege Banking,300000
+type    : datatypes:  int, str, str, str, int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create         : While joining banking industry
+        - Retrieve  info  : By Bank 
+        - Update                 : contactnum, Addr, MailID, Salary A/c 
+        - Delete        : While Transfer/Resignation
+		
+
+Entity3 : Engineer
+    1. STATE:
+    ---------   
+                 int emp_id = 100    
+                ================
+variable: Attributes: emp_id, name,post, dept, salary,dob,location
+value   : Values    : 100, Rita, Python Developer, Backend,40000,14-July-99 "Bangalore"
+type    : datatypes:  int, str, str, str, int,date,str
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create Student         : While joining Company
+        - Retrieve Student info  : By Engineer/ Company
+        - Update                 : contactnum, Addr, MailID, post, Location 
+        - Delete Student         : While leaving /Transfer
+		
+Entity4 : Doctor
+    1. STATE:
+    ---------   
+                 int id = 100    
+                ================
+variable: Attributes: id, name, designation,specilisation, salary,location
+value   : Values    : 100, Sita, Mbbs, NeuroPhysician,50000, "Bangalore"
+type    : datatypes:  int, str, str, str, int,str
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create         : While joining Hospital
+        - Retrieve info  : By Doctor/ Hospital
+        - Update         : address, contactnum, Location, Designation,salary 
+        - Delete         : While leaving
+		
+Entity5 : Car		
+    1. STATE:
+    ---------   
+                 str model  = SUV
+                ================
+variable: Attributes: name,model, colour, seater, mileage,price
+value   : Values    : Renault, SUV, red, 5, 21.46, 1000000
+type    : datatypes:  str, str, str, int,float,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        : Car for Sale in company
+        - Retrieve info  : By company
+        - Update         : Buyercontactnum, Addr, MailId, 
+        - Delete         : sold (after few years)
+		
+Entity6 : Bike		
+    1. STATE:
+    ---------   
+                 str model  = Royal Enfield
+                ================
+variable: Attributes:name, colour, mileage, price
+value   : Values    : Royal Enfield,  blue, 12.3, 100000
+type    : datatypes:  str, str,float,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        : Bike for Sale in company
+        - Retrieve info  : By company
+        - Update         : Buyercontactnum, Addr, MailId, 
+        - Delete         : sold (after few years)
+		
+Entity7 : Laptop	
+    1. STATE:
+    ---------   
+                 str name  = Dell
+                ================
+variable: Attributes: product_id, name, colour,processor, Ram, os, screen_size
+value   : Values    : 1234, Dell, red,Intel,4,windows, 13.5
+type    : datatypes:  int,str, str,str, int,str,float
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        : laoptop for Sale in company
+        - Retrieve info  : By company
+        - Update         : Buyer_contactnum, Addr, MailId, Location
+        - Delete         : sold (after few years)		
+
+Entity8 : Phone	
+    1. STATE:
+    ---------   
+                 str name  = Oppo
+                ================
+variable: Attributes: product_id, name, model, colour,camera_mp,screen_size
+value   : Values    : 1234,Oppo, A31,red,50, 8
+type    : datatypes:  int,str, str,str, int,float
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        : mobile for Sale in company
+        - Retrieve info  : By company
+        - Update         : Buyer_contactnum, address,specifications, Location, 
+        - Delete         : sold (after few years)				
+
+
+Entity9 : TV
+    1. STATE:
+    ---------   
+                 str name  = LG
+                ================
+variable: Attributes: product_id, name, screen_size, price
+value   : Values    : 1234, LG, 21.6, 40000
+type    : datatypes:  int,str,float, int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        : Tv for Sale in company
+        - Retrieve info  : By company
+        - Update         : Buyer_contactnum, address, Location, 
+        - Delete         : sold (after few years)				
+
+Entity10 : Washing M/c
+    1. STATE:
+    ---------   
+                 str name  = Samsung
+                ================
+variable: Attributes: product_id, name,type, colour, price
+value   : Values    : 1234,Samsung, automatic, maroon, 40000
+type    : datatypes:  int,str,str, str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale in company
+        - Retrieve info  : By company
+        - Update         : Buyer_contactnum, address, Location, 
+        - Delete         : sold (after few years)				
+		
+Entity11 : Oven
+    1. STATE:
+    ---------   
+                 str name  = Sumsung
+                ================
+variable: Attributes: product_id, name,type, colour, price
+value   : Values    : 1234,Samsung, microwave,automatic, maroon, 20000
+type    : datatypes:  int,str,str, str,str, int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale in company
+        - Retrieve info  : By company
+        - Update         : Buyer_contactnum, address, Location, 
+        - Delete         : sold (after few years)				
+				
+Entity12 : Refrigerator
+    1. STATE:
+    ---------   
+                 str name  = LG
+                ================
+variable: Attributes: product_id, name, colour, price
+value   : Values    : 1234,LG,  maroon, 30000
+type    : datatypes:  int,str,str, int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale in company
+        - Retrieve info  : By company
+        - Update         : Buyer_contactnum, address, Location, 
+        - Delete         : sold (after few years)				
+								
+Entity13 : AC
+    1. STATE:
+    ---------   
+                 str name  = LG
+                ================
+variable: Attributes: product_id, name, type,colour, price
+value   : Values    : 1234,LG, Split, grey, 20000
+type    : datatypes:  int,str,str,str, int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale in company
+        - Retrieve info  : By company
+        - Update         : Buyer_contactnum, address, Location, 
+        - Delete         : sold (after few years)				
+												
+
+
+Entity14 : Apartment
+    1. STATE:
+    ---------   
+                 str name  = Prestige
+                ================
+variable: Attributes: name,bhk,flat_no,floor,colour,facing, price
+value   : Values    : Prestige,3, 500,12, ocean_green,east, 10000000
+type    : datatypes:  str,int,int,int,str,str, int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by company
+        - Retrieve info  : By company/Person
+        - Update         : Buyer_name, Buyer_contactnum, address, Location, 
+        - Delete         : sold (after few years)														
+Entity15 : sofa
+    1. STATE:
+    ---------   
+                 int seater  = 5
+                ================
+variable: Attributes: product_id,seater, colour, price
+value   : Values    : 1234, 5, blue, 20000
+type    : datatypes:  int,str,str, int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale in company
+        - Retrieve info  : By company
+        - Update         : Buyer_contactnum, address, Location, 
+        - Delete         : sold (after few years)		
+
+Entity16 : Book
+    1. STATE:
+    ---------   
+                 str subject  = EVS
+                ================
+variable: Attributes: subject,class,chapters, price
+value   : Values    : EVS, 5, 10, 20000
+type    : datatypes:  str,int,int,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after few years)		
+		
+Entity17 : 
+    1. STATE:
+    ---------   
+                 str table  = Nilkamal
+                ================
+variable: Attributes: name,colour,price
+value   : Values    : Nilkamal, brown, 20000
+type    : datatypes:  str,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after few years)		
+												
+Entity18 : 
+    1. STATE: Shoe
+    ---------   
+                 str name  = Nike
+                ================
+variable: Attributes: name,type, colour, price
+value   : Values    : Nike,sports, white, 545
+type    : datatypes:  str,str,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after few years)														
+														
+Entity19: 
+    1. STATE: Sandal
+    ---------   
+                 str name  = Kolhapuris
+                ================
+variable: Attributes: name,type,colour,price
+value   : Values    : Kolhapuris, fancy, green_red,700
+type    : datatypes:  str,str,str, int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after few years)	
+
+Entity20: 
+    1. STATE: Dress
+    ---------   
+                 str name  = T_shirt
+                ================
+variable: Attributes: name,company, sleeves,style,type,colour,price
+value   : Values    : T_shirt, Allen_solly,half,formal,checked,blue_red,1600
+type    : datatypes:  str,str,str,str,str,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller/Mall
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after few years)		
+																
+Entity21: 
+    1. STATE: Pen
+    ---------   
+                 str name  = Pen
+                ================
+variable: Attributes: name,company,type,colour,price
+value   : Values    : pen, Parker,ball,black,150
+type    : datatypes:  str,str,str,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after few years)																												
+		
+Entity22: 
+    1. STATE: Professor
+    ---------   
+                 int emp_id= 12
+                ================
+variable: Attributes: emp_id,name,college,class,dept,salary
+value   : Values    : 12,Ram, Xaviers,B_tech,artificial_intelligence,50000
+type    : datatypes:  int,str,str,int,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  On joining the college
+        - Retrieve info  : By College
+        - Update         : contactnum, address, Location, mail_id
+        - Delete         : Resigning				
+		
+Entity23: 
+    1. STATE: Train
+    ---------   
+                 str name  = Train
+                ================
+variable: Attributes: name,region,type,colour,seater,fair
+value   : Values    : Rajdhani,North_east,ac,chair_car,maroon,1500
+type    : datatypes:  str,str,str,str,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  after launch
+        - Retrieve info  : By Railways
+        - Update         : state_info, Location_info 
+        - Delete         : if dismantled/not running  		
+
+Entity24: 
+    1. STATE: 
+    ---------   
+                 str name  = sandwich_maker
+                ================
+variable: Attributes: name,section,colour,price
+value   : Values    : Borosil,2,maroon,1500
+type    : datatypes :  str,str,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  after launch
+        - Retrieve info  : By Railways
+        - Update         : state_info, Location_info 
+        - Delete         : sold	(after few years)
+
+Entity25: 
+    1. STATE: coffee_maker
+    ---------   
+                 str name  = coffee_maker
+                ================
+variable: Attributes: name,model,colour,fair
+value   : Values    : coffee_maker,Nespresso,maroon,2000
+type    : datatypes:  str,str,str,str,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  sale by company
+        - Retrieve info  : By company
+       - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after few years)					
+		
+
+Entity27 : Software Enginner	
+		  1. STATE:
+    ---------   
+                 int emp_id = 100    
+                ================
+variable: Attributes: emp_id, name,designation,service_type, dept, experience,salary
+value   : Values    : 100, Sandhya, Senior_SoftwareEnginner, Product,Front_end,10, 80000
+type    : datatypes:  int, str, str, str, str,int,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create         : While joining company
+        - Retrieve  info  : By company
+        - Update          : contactnum, Addr, MailID, designation, dept,salary
+        - Delete        : While Transfer/leaving
+		
+Entity28: 
+    1. STATE: Teacher
+    ---------   
+                 int emp_id= 12
+                ================
+variable: Attributes: emp_id,name,class,subject,salary
+value   : Values    : 12,Reema,12, science,25000
+type    : datatypes:  int,str,int,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  On joining the college
+        - Retrieve info  : By College
+        - Update         : contactnum, address, Location, mail_id
+        - Delete         : Resigning	
+
+Entity29 : 
+    1. STATE: Water_Bottle
+    ---------   
+                 int product_id=1234
+                ================
+variable: Attributes: product_id,name,type,bpa, colour,number price
+value   : Values    : 1234, Niska_bottles, plastic,no Nike,pink,6,500
+type    : datatypes:  int,str,str,str,str,int,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after few years)	
+
+Entity30 : 
+    1. STATE: Tooth_paste
+    ---------   
+                 int product_id = 1234
+                ================
+variable: Attributes: product_id,name,colour, price
+value   : Values    : 1234,Colgate, pink,80
+type    : datatypes:  int,str,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after few years)	
+		
+Entity31 : 
+    1. STATE: Hair_oil
+    ---------   
+                 int product_id = 1234
+                ================
+variable: Attributes: product_id,name,type, price
+value   : Values    : 1234,Hair_N_Care,light,100
+type    : datatypes:  int,str,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after few years)	
+
+Entity32 : 
+    1. STATE: shampoo
+    ---------   
+                 int product_id = 1234
+                ================
+variable: Attributes: product_id,name,type, price
+value   : Values    : 1234,Dove,dandruff_free,100
+type    : datatypes:  int,str,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after)	
+	
+Entity33 : 
+    1. STATE: Face_cream
+    ---------   
+                 int product_id = 1234
+                ================
+variable: Attributes: product_id,name,company,type,price
+value   : Values    : 1234,night_cream,Ponds,non_oily,100
+type    : datatypes:  int,str,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after)		
+		
+
+
+Entity34: 
+    1. STATE: soap
+    ---------   
+                 int product_id = 1234
+                ================
+variable: Attributes: product_id,name,type,colour,price
+value   : Values    : 1234,Lux,almond_milk,white,43
+type    : datatypes:  int,str,str,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after)				
+		
+Entity35: 
+    1. STATE: Foundation
+    ---------   
+                 int product_id = 1234
+                ================
+variable: Attributes: product_id,name,type,colour,price
+value   : Values    : 1234,Lakme,Dewy,Fair,600
+type    : datatypes:  int,str,str,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after)				
+				
+
+Entity36: 
+    1. STATE: Pencil
+    ---------   
+                 int product_id = 1234
+                ================
+variable: Attributes: product_id,name,colour,quantity,price
+value   : Values    : 1234,Natraj,Dewy,red_black,10,60
+type    : datatypes:  int,str,str,str,int,float
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after)	
+		
+Entity37: 
+    1. STATE: Wrist_Watch
+    ---------   
+                 int product_id = 1234
+                ================
+variable: Attributes: product_id,model,colour,price
+value   : Values    : 1234,Fossil,Royal_pink,4000
+type    : datatypes:  int,str,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller/Mall
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after)		
+		
+Entity38: 
+    1. STATE: Ring
+    ---------   
+                 int product_id = 1234
+                ================
+variable: Attributes: product_id,model,metal,colour,price
+value   : Values    : 1234,Rajnandini_Jewellers,Diamond,silver,25000
+type    : datatypes:  int,str,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller/Mall
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after)	
+
+Entity39: 
+    1. STATE: Copy
+    ---------   
+                 int product_id = 1234
+                ================
+variable: Attributes: product_id,model,pages,type,price
+value   : Values    : 1234,Classmate,400,lined,250
+type    : datatypes:  int,str,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller/Mall
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after)			
+		
+Entity40: 
+    1. STATE: Female_clothing
+    ---------   
+                 int product_id = 1234
+                ================
+variable: Attributes: product_id,name,company,fabric,colour,price
+value   : Values    : 1234,saree,Sundari,georgette,pink_yellow,2500
+type    : datatypes:  int,str,str,str,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller/Mall
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after)	
+
+Entity41: 
+    1. STATE: Movie
+    ---------   
+                 str name = Mission Possible
+                ================
+variable: Attributes: name,actor,date_realeased, theatres,fair
+value   : Values    : Mission Possible,Tom Cruise,13-07-2023, Imax, 500
+type    : datatypes:  str,str,date,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  movie tickets in Sale by seller/Mall
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after)					
+		
+Entity42: 
+    1. STATE: sweater
+    ---------   
+                 int product_id = 1234
+                ================
+variable: Attributes: product_id,model,type,colour,price
+value   : Values    : 1234,Tommy_Hilfiger,pullover,Pink,500
+type    : datatypes:  int,str,str,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller/Mall
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after)							
+		
+Entity43: 
+    1. STATE: spectacles
+    ---------   
+                 int product_id = 1234
+                ================
+variable: Attributes: product_id,model,type,colour,price
+value   : Values    : 1234,Lenskart,goggles,black,3000
+type    : datatypes:  int,str,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller/Mall
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after)	
+
+Entity44: 
+    1. STATE: Bank_account
+    ---------   
+                 int account_no = 1234
+                ================
+variable: Attributes: account_no,name,type,amount
+value   : Values    : 1234,Kush,savings_ac,300000
+type    : datatypes:  int,str,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller/Mall
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after)	
+
+
+Entity45: 
+    1. STATE: Footwear
+    ---------   
+                 int product_id = 1234
+                ================
+variable: Attributes: product_id,name,model,type,colour,price
+value   : Values    : 1234,Sandal,Bata,Wedge,Grey,1000
+type    : datatypes:  int,str,str,str,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller/Mall
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after)			
+
+Entity46: 
+    1. STATE: Food
+    ---------   
+                 int product_id = 1234
+                ================
+variable: Attributes: product_id,name,restaurant,price
+value   : Values    : 1234,Pizza,McDonald,160
+type    : datatypes:  int,str,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller/Mall
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after)			
+
+Entity47: 
+    1. STATE: curtain
+    ---------   
+                 int product_id = 1234
+                ================
+variable: Attributes: product_id,company,colour,type,price
+value   : Values    : 1234,Dunlup,maroon,sheer,600
+type    : datatypes:  int,str,str,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller/Mall
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after)			
+
+Entity48: 
+    1. STATE: Kajal
+    ---------   
+                 int product_id = 1234
+                ================
+variable: Attributes: product_id,company,colour,price
+value   : Values    : 1234,Lakme,maroon,60
+type    : datatypes:  int,str,str,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller/Mall
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after)			
+
+Entity49: 
+    1. STATE: Novel
+    ---------   
+                 int product_id = 1234
+                ================
+variable: Attributes: product_id,author,type,price
+value   : Values    : 1234,Ruskin_Bond,Fiction,600
+type    : datatypes:  int,str,str,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller/Mall
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after)			
+
+Entity50: 
+    1. STATE: Perfume
+    ---------   
+                 int product_id = 1234
+                ================
+variable: Attributes: product_id,model,type,price
+value   : Values    : 1234,SKINN,apparel,600
+type    : datatypes:  int,str,str,str,int
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller/Mall
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after)			
+
+
+Entity 51:
+   1. STATE: white_Tigers
+    ---------   
+                 str name = white_Tigers
+                ================
+variable: Attributes: name,region,colour,sanctuary
+value   : Values    : white_Tigers,Indian_Himalayas,white_black,Sunderbans
+type    : datatypes:  str,str,str,str
+
+    2. BEHAVIOR:
+    --------------
+    CRUD : CREATE / RETRIEVE / UPDATE / DELETE 
+        - Create        :  Sale by seller/Mall
+        - Retrieve info  : By company
+        - Update         : Buyer_name,Buyer_contactnum, address, Location, 
+        - Delete         : sold (after)			

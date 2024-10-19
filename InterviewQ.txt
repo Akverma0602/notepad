@@ -1,0 +1,226 @@
+0. Introduce yourself.
+1. Tell me about Python?
+2. Why Python is so popular now a days?
+3. Features of Python
+4. Advantages and Disadvantages of Python
+5. Interpreted vs Compiled time programming languages. Explain in detail
+6. .py vs .pyc files
+7. How compilation will happen internally. Explain in detail
+8. Why Python is Dynamically typed programming Language. Explain
+9. Python is Platform independent.Explain
+10.Different ways to write python program.
+   Interactive, IDLE, CommandPrompt, IDE
+   Advantages, Disadvantages
+11.sourcecode vs bytecode
+12.Register instruction set
+13.High Level vs Low level programming Language
+14.Python architecture
+15.Explain Garbage Collection mechanism in detail.
+
+Answer Introduction. Myself Akanksha Verma. I am a B.TECH graduate and completed my Engineering in CSE stream from Integral University, Lucknow,UP. After graduation,I joined ICICI Bank Pvt Ltd as Deputy Manager at Delhi Branch and worked there for almost 2 years.I used to resolve customer queries, assist my suboordinates, used to validate checks and used to complete my targets.So there I gained lot of corporate experiences. During that time I was also preparing for govt exams like UpSc. However, I couln't clear the prelims. Later I joined A coaching academy named Royal Academy and guided student and taught Maths there upto 10th level. Meanwhile, I post graduated that is completed MBA course in HR. Later, I got interested towards my core branch ie CSE and decided to move ahead in It sector. I completed my one year Internship in ITVedant Pvt Ltd and gained hands on experience in latest technologies like HTML5, CSS3, Javascript. It was mainly based on Python for web development. Learnt creating projects using Python web frameworks like Django,Flask,got understanding of ORM libraries. I had created a web app in Angular using components and services which is e-commerce web application. Also, I have created an Online School Mangament website using PHP, MySQL, Html,Css and Bootstrap.Thus,I gained various insights there regarding latest technologies.
+
+I am an optmistic and punctual person. I dedicated towards my work and put my 100% effort in it. I am good as a team worker and can do well as a solo contributor too.
+
+Ans 1. Tell me about Python?
+Python is a high level programming language and highly demanding language. It is very easy to learn,use, understand and debug.There are Very few lines of code in 
+python, it uses simples English words which makes it easier to understand and work with. It can run on any os that is, 
+it is platform independent. It is interpreted language and integrates with other programming languages too. 
+It is open source, freely available and 
+It has large community support.
+It has lots of libraries, packages and in built functions that needs to be just imported in our code, We do not need to create everything from scratch and 
+One can use its web frameworks like Django and Flask. Beacuse of these faetures, 
+It is widely used by programmers these days.
+
+Ans 2.Why Python is so popular now a days?
+a)It is Dynamically Typed language - we need not mention variable type before assigning values to a variable.
+b)Easy to understand,use,learn and maintain- simple English words in code
+c)Integrated Language - can integrate with other programming languages.
+d)Open source - any one can download it and it is freely avaialble (no license is needed)
+e)Large community support - On various websites, programmars solve and upload the code 
+f)Very few lines of code as compared to other prgramming languages like JAVA, c
+g)Libraries and packages , modules available -We just need to import them in our code without building everythong from scratch - good for web and app developments.
+h)Error identification soon
+i)Used by many renowned companies like Google, Facebook
+j)Used in - data sciece, ML, automation, GUI
+
+  
+Ans 3.Features of Python
+
+a)Easy to use, learn,understand and maintain
+b)Dynamically Typed language- We need not specify data types before assigning value to varibles. Data type is needed at run time only
+c)Interpreted Language - It uses interpreter for translation and has line by line execution
+d)Open source- it is freely available on internet and any one download and use it.
+e)Large community support - This is the reason programmers use Python a lot these days as problems are posted in community and solutions are put by other programmers. so, one can take help from there.
+f)Integrated language- It can well integrate with other languages too.
+g)Libraries and packages - It has various libraries and packages that we just need to import in our code and it makes coding easier.
+h)Error Identification is soon and results are obtained faster
+i)Platform Independent - It is flexible that is platform independent and can run on any OS.
+j)Very few lines are needed as compared to other programming languages.
+k)Simple English words are used.  
+
+Ans 4. Advantages and Disadvantages of Python
+Advantages oF Python -
+
+a)Dynamically typed language - we donot need to mention the data types of variable before assigning values to the varaiable.
+b)Easy to learn, use, maintain and debug
+c)Very few lines of code
+d)Simple English words are used in code
+e)Integrated language - It can integrate well with other programming languages like c, c++
+f)open source - It is freely available on internet and one can easily download it. No need of license for that
+g)Large community support - Many people are posting in community regarding debugging errors and problems that occur in day to day coding. It is helpful alot for programmars and they can take help from various sites.
+h)Libraries and packages - Availability of various packages, modules makes it a good language for web applications, games app development. It has web frameworks like Django and Flask which leads to easier, faster and maintainable code. We donot need to build things from scratch.
+i)Error identification is soon  - debugging is simple in Python. If source code has any error, it halts execution and throws error. If it doesn't has any error 
+it is converted into byte code.
+ 
+Disadvantages -
+
+a)Slow processing - Python is an interpreted language, that is, it processes each line of code in a sequence. Consequently, the efficiency of each line is crucial to the overall speed of your code. As your code becomes more complex, it's natural to overlook inefficient code, causing slower processing and decreased performance.
+b)Low memory Efficient - It takes lot of memory 
+c)Not good for mobile app development - beacause of slow processing and not being memory efficient.
+d)Interpreted Language - It takes lot of time in execution of instructions as it executes line by line
+e)Low database connectivity
+f)run time errors- as we can change the code dynamically so prone to run time errors.
+
+Ans5. Interpreted vs Compiled time programming languages. Explain in detail
+ 
+a)Compliled programming languages are those which require compiler for translation whereas interpreted laguages require interpreter for its translation
+b)compiled languages can be directly executed by CPU, whereas interpreted languages cannot be directly executed by Cpu
+c)compilation requires 2 steps while interpretation requires single step 
+d)compiled languages can be executed by target machine, but interpreted languages need translation of bytecode into machine code
+e)compiled languages are faster as compared to interpreter
+f)compiled languages has higher performance than interpreted language
+g)compiler translates entire program into compiled file, whereas interpreter executes line by line.
+h)Compiler debugs entire file at compilation time whereas all debugging is done at run time by interpreter 
+
+Ans 6. .py vs .pyc files
+a).py files contain the source code of a program. Whereas, .pyc file contains the bytecode of your program. We get bytecode after compilation of .py file (source code). .pyc files are not created for all the files that you run. It is only created for the files that you import.
+		 
+b)Before executing a python program python interpreter checks for the compiled files. If the file is present, the virtual machine executes it. If not found,
+ it checks for .py file. If found, compiles it to .pyc file and then python virtual machine executes it.
+c)Having .pyc file saves the compilation time.
+.py files are source code that is human readable form whereas .pyc files are bytecode and not human readable.Bytecode is intermediatory between source code and machine code
+
+Ans7. How compilation will happen internally. Explain in detail
+
+a)Fisrtly the code is written which is checked for errors. If there is any error, execution is halted and it throws error
+b)If there is no error, then the source code is converted internally into bytecode(internal compilation)
+c)This bytecode cannot be directly executed by CPU. so, Python virtual machine comes into picture and is the interpreter and converts bytecode into machine code
+
+Ans Why Python is Dynamically typed programming Language. Explain
+
+Dynamically typed language: These are the languages that do not require to data type for any variable and it is interpreted at runtime by the machine itself. In these languages, interpreters assign the data type to a variable at runtime depending on its value.
+Dynamically typed means there is no need to type data types before assigning values to variables. 
+Data type is needed at run time only. In Python while coding, we need not define data types, so it is dynamically typed programming language.  
+a = 10
+print(typeof(a))    <class - 'int'>
+
+Ans 9. Python is Platform independent. Explain
+
+Python is platform independent and can run on any OS. If there is code written for Windows, 
+It will run on Mac or Linux without requiring the code to change. It is said to be portable because we do not need to change the code even we want to run the same piece of code on different machines with different OS. 
+No changes has to be made in the code and we can directly execute that same code on other machine with any other OS like LINUX, MAC even if it has been written in machin with other OS like Windows.
+
+Ans  10. Different ways to write python program.
+   Interactive, IDLE, CommandPrompt, IDE
+   Advantages, Disadvantages
+   
+Interactive - When we type the code in one line and in another line we get the output.
+Adv -              
+It is easier
+Faster
+Good for beginners
+Disadv - not good for writing long code or larger programs
+
+IDLE - It is scripting way of programming. It is integrated developement and learning environment.
+Adv - 
+a)good for beginners - It is easier to learn  
+b)Indentation support is provided
+c)Debugg is soon - Syntax errors are identified.
+d)esier to code
+
+Disadv
+a)Debuging can be upgraded
+b)Not good for advance level programs because it misses tools for that
+c)Does not have data science packages
+
+command Prompt - when we execute python code in cmd
+adv -
+a) good for beginners
+b)faster
+c)accuracy 
+
+disadv - 
+a)not good for complex programs
+b)need to remember commands 
+c)lot of copying and pasting
+
+IDE - Integrated Development Environment. It is a software application that has various tools for auto completion of code, building, editing, modifying the code
+Adv - 
+a)good for advance coding
+b)has various in-built packages and libraries 
+c)good for large programs
+d)advanced debugging
+
+Dis adv -
+a)not good for beginners
+b)complex coding          
+
+Ans11.sourcecode vs bytecode
+
+source is the base code written by programmars and bytecode is intermediate between source and machine code.
+source code is the code which is written by us and is in human readable format
+Source code uses simple English words, byte code is compiled version of source code
+source code can be readable by humans,bytecode cannot be read by humans
+source code is changeable; but byte code cannot be changed directly
+source code has .py extension whereas bytecode has .pyc extension
+
+
+Ans12.Register instruction set
+
+These are commands thar are used to set register for a specific value. If we want to copy data from memory to register or vice-versa or need to perform arithmetic and logic operations, these register instruction commands are needed  
+
+Ans 13.High Level vs Low level programming Language
+
+High level languages 
+a)programmar friendly - can be understood and used easily by programmars
+b)portable - platform independent that is it can run on any OS
+c)Easy to understand, learn and use
+d)Debugging is easy - for such languages there are various editors which makes it easy to identify aand rectify errors
+e)Needs compiler or translator for translation - It cannot be understood by machine so it has to be converted to machine readable form  
+f)Human readable  - It is written by and for humans, so easily undertood
+g)widely used by programmars
+h) Examples - C, C++, JAVA,PYTHON
+
+
+Low level Languages
+
+a)Machine friendly - It is understood by machines only
+b)Machine dependent - It changes for different machines like MAC, LINUX, Windows will have different versions of it.
+c)complex to understand, learn and not easy.
+d)not human readable 
+e)Not widely used by programmars these days as simpler programming languages are there where we can code easily
+g)debugging is complex - To understand and identify error and fixing them is difficult for low level languages.
+h)needs assembler for translation - 
+i)Example - Machine readable code  in form of 0's and 1's.
+
+Ans 14.Python architecture
+
+1)Source code - firstly we  write the code which is human readable and .py as extension.if there is error, it halts execution. If thee is no error it is converted to .py file
+2)Tokenizer - It converts large piece of code into smaller chunks and creates list of tokens
+3)Parser - A Python Parser is a program that takes input data and converts it into machine-readable format.
+4)Compilation - compiler converts source code(.py) files into byte code(.pyc)
+5)Optimization - it is used to otimize the code like use less memory, few resources (i.e. CPU, Memory),extra spaces removed so that machine can work faster.
+6)Python Virtual Machine - This is the Interpreter of Python. The .pyc code cannot be executed by CPU directly. So, Python virtual machine comes into picture that is the interpreter and converts bytecode into machine code.
+7)After these steps, it is ready for execution.
+
+
+
+
+Ans 15.Explain Garbage Collection mechanism in detail.	
+
+Garbage collection is done automatically in python. It keeps track of allocated, deallocated memory. It keeps collection of unused objects.There are 2 ways for 
+garbage collection.
+
+a)Reference Counter - When a variable is named or alias are used to refer an object, then its reference counter increases. When it's refernces are deleted, then it reference counter becomes zero and it is then garbae collected. Before that destructor del__() method is invoked and all reference to object is deleted and object is  garbage collected
+
+Generational garbage collection - when an object points to itself, its reference counter never becomes zero. then generational garbag collector is used.		 
